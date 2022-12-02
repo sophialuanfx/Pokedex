@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(233, 214, 233), rgb(236, 236, 198));
+}
+
+h1 {
+    text-align: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(222, 253, 224);
+    margin: 1rem 1rem 0px 0px;
+    width: 145px;
+    /* flex: 1 1 auto; */
+    
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(143, 143, 143);
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    background-color: azure;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+
+    border-radius: 60px;
+}
+
+.id {
+    background-color: rgba(207, 207, 207, 0.5);
+    margin-left: 50px;
+    width: fit-content;
+
+    border-radius: 13px;
+    padding: 5px;
+}
