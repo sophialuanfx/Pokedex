@@ -10,11 +10,20 @@ body {
 h1 {
     text-align: center;
 }
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
 
 .card {
     background-color: rgb(222, 253, 224);
     margin: 1rem 1rem 0px 0px;
     width: 145px;
+    /* flex: 1 1 auto; */
+    
 
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgb(143, 143, 143);
